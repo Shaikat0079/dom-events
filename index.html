@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Events</title>
+</head>
+<body>
+    <h1>Dom Dom Dom</h1>
+    <button onclick="console.log(7)">Click Me!</button>
+    <input type="text">
+    <br>
+    <button onclick="makeYellow()">Make Yellow</button>
+    <button onclick="makeRed()">Make Red</button>
+    <script>
+        function makeYellow() {
+            document.body.style.backgroundColor='yellow'
+        }
+        function makeRed() {
+            document.body.style.backgroundColor = "red"
+        }
+    </script>
+    <script src="./js/event.js"></script>
+</body>
+</html>
